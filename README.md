@@ -5,7 +5,7 @@ In this demonstration we'll explore the new `network_cli` connection method as w
 All of the code and examples for this lesson is located in the `netdevops_demos/ansible_02` directory.  Clone and access it with the following commands:
 
 ```bash
-git clone https://github.com/hpreston/netdevops_demos
+git clone https://github.com/bigevilbeard/external_demo
 cd netdevops_demos/ansible_02
 ```
 
