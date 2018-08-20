@@ -3,7 +3,7 @@
     <extensions>
         <entry key="management_network" type="String">flat</entry>
     </extensions>
-    <node name="nx-osv9000-1" type="SIMPLE" subtype="NX-OSv 9000" location="108,143" vmImage="NX-OSv 9000-7.0.3.I6.1 [b8a19e1a-9dfe-4b63-817f-a9347094502c]" vmFlavor="NX-OSv 9000-I6 [eeede0ab-36f9-4fc8-8e34-f4adb2c4cbea]" ipv4="192.168.0.1">
+    <node name="nx-osv9000-1" type="SIMPLE" subtype="NX-OSv 9000" location="108,143" vmImage="NX-OSv 9000 [7a628e1f-cdfa-4c9f-ac4a-40837e55332e]" vmFlavor="NX-OSv 9000-I6 [bc033f5f-6d88-448e-b8a4-93a78995aab6]" ipv4="192.168.0.1">
         <extensions>
             <entry key="static_mac" type="String">aa:aa:aa:aa:aa:aa</entry>
             <entry key="AutoNetkit.mgmt_ip" type="string"></entry>
@@ -97,7 +97,7 @@ interface loopback0
 
 line console
 line vty
-boot nxos bootflash:/nxos.7.0.3.I6.1.bin
+boot nxos bootflash:/nxos.9.2.1.bin
 </entry>
         </extensions>
         <interface id="0" name="Ethernet1/1"/>
@@ -107,7 +107,7 @@ boot nxos bootflash:/nxos.7.0.3.I6.1.bin
         <interface id="4" name="Ethernet1/5"/>
         <interface id="5" name="Ethernet1/6"/>
     </node>
-    <node name="nx-osv9000-3" type="SIMPLE" subtype="NX-OSv 9000" location="250,285" vmImage="NX-OSv 9000-7.0.3.I6.1 [b8a19e1a-9dfe-4b63-817f-a9347094502c]" vmFlavor="NX-OSv 9000-I6 [eeede0ab-36f9-4fc8-8e34-f4adb2c4cbea]" ipv4="192.168.0.3">
+    <node name="nx-osv9000-3" type="SIMPLE" subtype="NX-OSv 9000" location="250,285" vmImage="NX-OSv 9000 [7a628e1f-cdfa-4c9f-ac4a-40837e55332e]" vmFlavor="NX-OSv 9000-I6 [bc033f5f-6d88-448e-b8a4-93a78995aab6]" ipv4="192.168.0.3">
         <extensions>
             <entry key="static_mac" type="String">aa:aa:aa:aa:aa:ac</entry>
             <entry key="AutoNetkit.mgmt_ip" type="string"></entry>
@@ -189,14 +189,14 @@ interface loopback0
 
 line console
 line vty
-boot nxos bootflash:/nxos.7.0.3.I6.1.bin
+boot nxos bootflash:/nxos.9.2.1.bin
 </entry>
         </extensions>
         <interface id="0" name="Ethernet1/1"/>
         <interface id="1" name="Ethernet1/2"/>
         <interface id="2" name="Ethernet1/3"/>
     </node>
-    <node name="nx-osv9000-2" type="SIMPLE" subtype="NX-OSv 9000" location="402,139" vmImage="NX-OSv 9000-7.0.3.I6.1 [b8a19e1a-9dfe-4b63-817f-a9347094502c]" vmFlavor="NX-OSv 9000-I6 [eeede0ab-36f9-4fc8-8e34-f4adb2c4cbea]" ipv4="192.168.0.2">
+    <node name="nx-osv9000-2" type="SIMPLE" subtype="NX-OSv 9000" location="402,139" vmImage="NX-OSv 9000 [7a628e1f-cdfa-4c9f-ac4a-40837e55332e]" vmFlavor="NX-OSv 9000-I6 [bc033f5f-6d88-448e-b8a4-93a78995aab6]" ipv4="192.168.0.2">
         <extensions>
             <entry key="static_mac" type="String">aa:aa:aa:aa:aa:ab</entry>
             <entry key="static_ip" type="String">172.16.30.102</entry>
@@ -290,7 +290,7 @@ interface loopback0
 
 line console
 line vty
-boot nxos bootflash:/nxos.7.0.3.I6.1.bin
+boot nxos bootflash:/nxos.9.2.1.bin
 </entry>
         </extensions>
         <interface id="0" name="Ethernet1/1"/>
